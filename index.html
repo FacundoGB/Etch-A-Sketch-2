@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    
     <title>Etch-A-Sketch Game</title>
 </head>
 <body>
     <h1>Etch-A-Sketch</h1>
     <div class="header">
-        <p>Select size</p>
-        <button id="popup">Select</button>
+        <p>Size selected <span id="size-container"></span></p>
+        <button id="resize">Resize</button>
     </div>
 
     <div class="canvas"></div>
     <div class="footer">
-        <button>Black</button>
-        <button>Reser Canvas</button>
-        <button>Random</button>
+        <button id ='black'>Black</button>
+        <button id ='grey'>Grey</button>
+        <button id ='random'>Random</button>
+        <button id ='white'>Eraser</button>
+        <button id ='reset'>Reset Canvas</button>
+            
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
